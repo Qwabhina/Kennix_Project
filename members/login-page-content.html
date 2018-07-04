@@ -1,0 +1,43 @@
+<!-- Main Container -->
+<div class="container">
+    <!-- Form Container -->
+    <div class="row form-container">
+        <h5 class="center">Sign In</h5>
+
+        <!-- Progress Bar -->
+        <div class="progress center">
+            <div class="indeterminate"></div>
+        </div>
+
+        <!-- Login Form -->
+        <form class="col s12" method="post" name="login-form" id="login-form">
+            <div class="error red darken-2"></div>
+
+            <!-- Username Field -->
+            <div class='row'>
+                <div class='input-field col s12'>
+                    <i class="material-icons prefix">account_circle</i>
+                    <input class='validate' type='text' name='username' id='username' autofocus required/>
+                    <label for='username'>Username</label>
+                </div>
+            </div>
+
+            <!-- Password Field -->
+            <div class='row'>
+                <div class='input-field col s12'>
+                    <i class="material-icons prefix">lock</i>
+                    <input class='validate' type='password' name='password' id='password' required/>
+                    <label for='password'>Password</label>
+                </div>
+            </div>
+            <br />
+
+            <!-- Submit Button -->
+            <center>
+                <div class='row'>
+                    <button type='submit' id="form_btn" name='btn_login' class='col s12 btn btn-large waves-effect blue white-text darken-4' disabled>Login</button>
+                </div>
+            </center>
+        </form>
+    </div>
+</div>

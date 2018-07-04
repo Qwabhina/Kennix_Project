@@ -1,0 +1,86 @@
+/* fallback */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/page-includes/fonts/icons.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* label color 
+
+#login-form .input-field label {
+    color: #fcfcfc;
+}
+
+/* label focus color 
+
+#login-form .input-field input[type=date]:focus + label,
+#login-form .input-field input[type=text]:focus + label,
+#login-form .input-field input[type=email]:focus + label,
+#login-form .input-field input[type=password]:focus + label {
+    color: #fcfcfc !important;
+}
+
+/* label underline focus color 
+
+#login-form .input-field input[type=date]:focus,
+#login-form .input-field input[type=text]:focus,
+#login-form .input-field input[type=email]:focus,
+#login-form .input-field input[type=password]:focus {
+    border-bottom: 1px solid #fcfcfc !important;
+    box-shadow: 0 1px 0 0 #fcfcfc !important;
+}
+
+/* valid color 
+
+#login-form .input-field input[type=text].vald {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* invalid color 
+
+#login-form .input-field input[type=text].invalid,
+#login-form .input-field input[type=date].invalid,
+#login-form .input-field input[type=email].invalid,
+#login-form .input-field input[type=password].invalid {
+    border-bottom: none !important;
+    box-shadow: none !important;
+    color: #ffc107 !important;
+}
+
+/* icon prefix focus color 
+
+#login-form .input-field .prefix.active {
+    color: #fcfcfc;
+}
+
+/* icon prefix focus color 
+
+#login-form .input-field .prefix {
+    color: #fcfcfc;
+}
+*/
+
+
+.input-field label{
+    pointer-events: all !important;
+}

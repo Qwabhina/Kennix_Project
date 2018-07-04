@@ -1,0 +1,2 @@
+[12:54:52 PM] Error in SignUp:  {"type":"error","content":"Could not execute statement: Column 'member_id' cannot be null"}<br>
+[1:01:13 PM] Benjamin Ebo logged in successfully<br>

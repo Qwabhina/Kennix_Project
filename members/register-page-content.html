@@ -1,0 +1,100 @@
+<!-- Main Container -->
+<div class="container-fluid">
+
+    <!-- Form Container -->
+    <div class="row form-r-container">
+        <h5 class="center">Create An Account</h5>
+
+        <!-- Progress Bar -->
+        <div class="progress center">
+            <div class="indeterminate"></div>
+        </div>
+
+        <!-- Login Form -->
+        <form class="col s12" method="post" name="register-form" id="register-form">
+            <div class="error red darken-2"></div>
+
+            <!-- Full Name -->
+            <div class='row'>
+                <!-- First Name -->
+                <div class='input-field col m6 s12'>
+                    <i class="material-icons prefix">person</i>
+                    <input class='validate' type='text' name='first-name' id='first-name' autofocus required/>
+                    <label for='first-name'>First Name</label>
+                </div>
+                <!-- Other Names -->
+                <div class='input-field col m6 s12'>
+                    <i class="material-icons prefix">person_outline</i>
+                    <input class='validate' type='text' name='other-names' id='other-names' required/>
+                    <label for='other-names'>Other Names</label>
+                </div>
+            </div>
+
+            <!-- Member ID, Gender & Username -->
+            <div class='row'>
+                <!-- Member ID -->
+                <div class='input-field col m4 s12'>
+                    <i class="material-icons prefix">account_circle</i>
+                    <input class='validate' type='text' name='member-id' id='member-id' readonly/>
+                    <label for='member-id'>Member ID</label>
+                </div>
+                <!-- Gender -->
+                <div class="input-field col m4 s12">
+                    <i class="material-icons prefix">people</i>
+                    <select id="gender" name="gender">
+                        <option value="" selected>I am...</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="N/A">Prefer Not To Say</option>
+                    </select>
+                    <label for="gender">Gender</label>
+                </div>
+                <!-- Username -->
+                <div class="input-field col m4 s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input type="text" class="validate" id="username" name="username">
+                    <label for="username">Username</label>
+                </div>
+            </div>
+
+            <!-- Passwords -->
+            <div class="row">
+                <!-- New Password -->
+                <div class="input-field col m6 s12">
+                    <i class="material-icons prefix">lock_outline</i>
+                    <input type="password" class="validate" name="password" id="password" />
+                    <label for="password">New Password</label>
+                </div>
+                <!-- Confirm Password -->
+                <div class="input-field col m6 s12">
+                    <i class="material-icons prefix">lock</i>
+                    <input type="password" class="validate" name="confirm-password" id="confirm-password" />
+                    <label for="confirm-password">Confirm Password</label>
+                </div>
+            </div>
+            
+            <!-- Email & Phone Number -->
+            <div class="row">
+                <!-- Email -->
+                <div class="input-field col m8 s12">
+                    <i class="material-icons prefix">mail_outline</i>
+                    <input type="email" class="validate" name="user-email" id="user-email" />
+                    <label for="user-email">Email</label>
+                </div>
+                <!-- Phone Number -->
+                <div class="input-field col m4 s12">
+                    <i class="material-icons prefix">phone</i>
+                    <input type="text" class="validate" name="phone-number" id="phone-number" />
+                    <label for="phone-number">Phone Number</label>
+                </div>
+            </div>
+            
+            <!-- Submit Button -->
+            <center>
+                <div class='row'>
+                    <button type='submit' id="form_btn" name='btn_register' class='col offset-m3 offset-s3 m6 s6 btn btn-large waves-effect blue white-text darken-4' disabled>Register</button>
+                </div>
+            </center>
+        </form>
+    </div>
+</div>
